@@ -1,5 +1,6 @@
 {
   "name": "csarts26.org",
+  "homepage": "https://csarts26.org",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
