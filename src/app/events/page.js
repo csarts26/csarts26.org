@@ -36,7 +36,7 @@ function renderLogo(logo, title) {
     if (logo) {
       return <img src={logo} alt={title} className="w-[500px] object-cover" />;
     }
-    return <span className="text-4xl font-bold">{title}</span>;
+    return <span className="text-5xl font-bold">{title}</span>;
   }
 
 
