@@ -1,27 +1,30 @@
-#valentines:
+#event:
 #  host: "Class of '26"          # if none specified, say "Class of '26"
 #  title: "Event Title"          # required, used as alt text for logo
-#  startDate: 01/01              # required, will be reformatted as text
+#  startDate: 01/01              # if none specified, use caption
 #  endDate: 01/02                # optional, will be reformatted as text
+#  caption: ""                   # optional, will replace date if no date specified
 #  location: "Place @ Time"      # required, typically "Place @ Time"
+## logo & bg should be in /images/events/{eventName}/ as logo.png and bg.png
 #  logo: /path/to/logo           # if none specified, use title
 #  bgImage: /path/to/bg          # TODO: if none specified, use key as random color from pallette seed
 #  link: "https://example.com"   # if none specified, hide CTA
 #  linkText:                     # if none specified, say "Learn More"
-valentines:
-  host: "Class of '26"
-  title: "Event Title"
-  startDate: 02/14
-  endDate:
-  location: "Quad @ Lunch"
-  # logo & bg should be in /images/events/{eventName}/ as logo.png and bg.png
-  logo: "/images/events/valentines/logo.png"
-  bg: "/images/events/valentines/bg.png" # 1080 x 1920 pls
-  link: "https://example.com"
-  linkText:
-christmas:
-  host: "Cleo's Critters"
-  title: "Christmas Celebration"
-  startDate: 01/01
-  location: "Place @ Time"
-  link: "https://example.com"
+
+#valentines:
+#  host: "Class of '26"
+#  title: "Valentines Jukebox"
+#  startDate: 02/14
+#  location: "Quad @ Lunch"
+#  logo: "/images/events/valentines/logo.png"
+#  bg: "/images/events/valentines/bg.png" # 1080 x 1920 pls
+#  link: "/"
+#  linkText:
+mc:
+  host: "Class of '26 & Esports Club"
+  title: "MC'26"
+  caption: Opening August 23rd
+  location: "All grades welcome!"
+  logo: "/images/events/mc26/logo.png"
+  bg: "/images/events/mc26/bg.png" # 1080 x 1920 pls
+  link: "/mc"
