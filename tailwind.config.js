@@ -10,6 +10,9 @@ module.exports = {
   prefix: "",
   theme: {
     extend: {
+      fontFamily: {
+        'sans': ['Inter', 'sans-serif'],
+      },
       colors: {
         brown: '#3C2B04',
         yellow: '#FDB815',
