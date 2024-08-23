@@ -1,5 +1,6 @@
 import Navbar from "@/components/ui/navbar";
 import EventsPage from "../components/ui/eventCarousel";
+import { BsInstagram } from "react-icons/bs";
 
 function NewHome() {
 	return (
@@ -31,9 +32,9 @@ function NewHome() {
 
 export default function Home() {
 	return (
-		<main className="w-screen h-full bg-yellow">
-			<div className="flex w-full h-screen text-brown items-center justify-center">
-				<div className="flex flex-col sm:flex-row pb-4 gap-16 items-center">
+		<main className="flex flex-col w-screen h-screen bg-yellow">
+			<div className="flex w-full h-full text-brown items-center justify-center">
+				<div className="flex flex-col sm:flex-row pb-4 sm:pt-10 gap-16 items-center">
 					<a href="/">
 						<img
 							src="/logo-dark.svg"
@@ -49,8 +50,14 @@ export default function Home() {
 						<p>We are currently hard at work planning events, fundraisers, and end of year activities!</p>
 						<p>Come back soon to get information on our upcoming events and more!</p>
 						<p>If you are a club owner, click <a href="/clubs">here</a>.</p>
+						<p>In the meantime, <a href="/team">meet the team!</a>.</p>
 					</div>
 				</div>
+			</div>
+			<div className="hidden sm:flex items-end justify-center w-full pb-6">
+				<a href="https://www.instagram.com/csarts26" target="_blank" rel="noopener noreferrer">
+					<BsInstagram className="size-6 fill-brown opacity-90"/>
+				</a>
 			</div>
 		</main>
 	);
