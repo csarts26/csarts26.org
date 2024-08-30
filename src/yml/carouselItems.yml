@@ -20,12 +20,6 @@
 #  bg: "/images/events/valentines/bg.png" # 1080 x 1920 pls
 #  link: "/"
 #  linkText:
-boba:
-  title: "Boba Sale"
-  startDate: 09/06
-  location: "Quad @ Lunch"
-  logo: "/images/events/boba/logo.png"
-  bg: "/images/events/boba/bg.png" # 1080 x 1920 pls
 mc:
   host: "Class of '26 & Esports Club"
   title: "MC'26"
