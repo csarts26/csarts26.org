@@ -20,8 +20,15 @@ return (
         <img className='w-full h-64 bg-yellow rounded-md'/>
         <div className='flex flex-col'>
         <h1 className='text-3xl font-medium'>Francis Fontana & Zakai Haynes</h1>
-        <h2 className='italic opacity-70 mt-1 mb-2'>Your Junior Co-Class Presidents</h2>
-        <p className='text-sm md:text-base'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <h2 className='italic opacity-70 mt-1 mb-4'>Your Junior Co-Class Presidents</h2>
+        <p className='text-sm md:text-base text-pretty'>
+          Hey everyone! My name is Frankie Fontana and I’m one half of the Junior Co-Class Presidents! I am so happy to be working with all of you again for the third year in a row. I have lots of plans and ideas for the year and can’t wait to see which ones go into fruition. One of my main goals is to get our enitre class a field trip! This will require lots of planning and fundraising but it’s something I think we’re very capable of. Thank you all for another year, LETS GO CLASS OF ‘26!
+        </p>
+        <p className="italic opacity-50 pb-4"> - Francis Fontana</p>
+        <p className='text-sm md:text-base text-pretty'>
+          Hi! My name is Zakai Haynes and I am in the Musical Theater conservatory. This is my 5th year at CSArts. This school, its environment, its people and its curriculum have been the highlights of every day of mine for a long time. I am very invested in this school and furthering its development. My main goal is to amplify the voice of the student body and make sure that the school is a reflection our identity. 
+        </p>
+        <p className="italic opacity-50 pb-4"> - Zakai Haynes</p>
         </div>
     </div>
 
@@ -36,6 +43,10 @@ return (
         <TeamCard 
           person="Octavia Roberts"
           title="Art Director, Developer"
+        />
+        <TeamCard 
+          person="Tine Fazekas"
+          title="Social Manager"
         />
         <TeamCard 
           person="Mordie Gomez"
