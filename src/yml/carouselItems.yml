@@ -20,11 +20,27 @@
 #  bg: "/images/events/valentines/bg.png" # 1080 x 1920 pls
 #  link: "/"
 #  linkText:
-mc:
-  host: "Class of '26 & Esports Club"
-  title: "MC'26"
-  caption: Opening August 23rd
-  location: "All grades welcome!"
-  logo: "/images/events/mc26/logo.png"
-  bg: "/images/events/mc26/bg.png" # 1080 x 1920 pls
-  link: "/mc"
+crumbl:
+  title: "Crumbl Cookie Sale"
+  startDate: 09/19
+  location: "Quad @ Lunch"
+  logo: "/images/events/crumbl/logo.png"
+  bg: "/images/events/crumbl/bg.png" # 1080 x 1920 pls
+  link: "https://instagram.com/csarts26"
+  linkText: "Get Updates"
+boba:
+  title: "Boba Sale"
+  startDate: 10/11
+  location: "Quad @ Lunch"
+  logo: "/images/events/boba/logo.png"
+  bg: "/images/events/boba/bg.png" # 1080 x 1920 pls
+  link: "https://instagram.com/csarts26"
+  linkText: "Get Updates"
+#mc:
+#  host: "Class of '26 & Esports Club"
+#  title: "MC'26"
+#  caption: Opening August 23rd
+#  location: "All grades welcome!"
+#  logo: "/images/events/mc26/logo.png"
+#  bg: "/images/events/mc26/bg.png" # 1080 x 1920 pls
+#  link: "/mc"

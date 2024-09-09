@@ -32,8 +32,9 @@ function NewHome() {
 
 export default function Home() {
 	return (
-		<main className="flex flex-col w-screen h-screen bg-yellow">
-			<div className="flex w-full h-full text-brown items-center justify-center">
+		<main className="flex flex-col w-screen h-full bg-yellow">
+			<EventsPage />
+			<div className="flex w-full h-screen text-brown items-center justify-center">
 				<div className="flex flex-col sm:flex-row pb-4 sm:pt-10 gap-16 items-center">
 					<a href="/">
 						<img
@@ -54,11 +55,11 @@ export default function Home() {
 					</div>
 				</div>
 			</div>
-			<div className="hidden sm:flex items-end justify-center w-full pb-6">
+			{/**<div className="hidden sm:flex items-end justify-center w-full pb-6">
 				<a href="https://www.instagram.com/csarts26" target="_blank" rel="noopener noreferrer">
 					<BsInstagram className="size-6 fill-brown opacity-90"/>
 				</a>
-			</div>
+			</div>*/}
 		</main>
 	);
 }

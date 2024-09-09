@@ -83,7 +83,7 @@ export default function EventsPage() {
 									<div className="h-full" />
 									{event.link && (
 										<a
-											className="bg-black w-fit px-5 py-2 rounded-full cursor-pointer border border-white border-opacity-20"
+											className="bg-black w-fit px-5 py-2 rounded-full cursor-pointer border border-white border-opacity-20 no-underline hover:text-white hover:text-opacity-80"
 											href={event.link}
 										>
 											{event.linkText}
