@@ -16,7 +16,7 @@ import {
 import yml from "js-yaml-loader!../../../src/yml/carouselItems.yml";
 
 function formatDate(dateString, short = false) {
-	const date = new Date(`2020-${dateString}`); // Adding a year to create a valid date object
+	const date = new Date(`2024-${dateString}`); // Adding a year to create a valid date object
 	const options = short
 		? { month: "short", day: "numeric" }
 		: { month: "long", day: "numeric" };

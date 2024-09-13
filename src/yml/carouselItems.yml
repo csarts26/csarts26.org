@@ -22,7 +22,8 @@
 #  linkText:
 crumbl:
   title: "Crumbl Cookie Sale"
-  startDate: 09/27
+  #startDate: 09/27
+  caption: "September 27th"
   location: "Quad @ Lunch"
   logo: "/images/events/crumbl/logo.png"
   bg: "/images/events/crumbl/bg.png" # 1080 x 1920 pls
@@ -30,7 +31,8 @@ crumbl:
   linkText: "Get Updates"
 boba:
   title: "Boba Sale"
-  startDate: 10/11
+  #startDate: 10/11
+  caption: "October 11th"
   location: "Quad @ Lunch"
   logo: "/images/events/boba/logo.png"
   bg: "/images/events/boba/bg.png" # 1080 x 1920 pls
