@@ -33,7 +33,6 @@ function NewHome() {
 export default function Home() {
 	return (
 		<main className="flex flex-col w-screen h-full bg-yellow">
-			<EventsPage />
 			<div className="flex w-full h-screen text-brown items-center justify-center">
 				<div className="flex flex-col sm:flex-row pb-4 sm:pt-10 gap-16 items-center">
 					<a href="/">
