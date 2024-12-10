@@ -20,22 +20,22 @@
 #  bg: "/images/events/valentines/bg.png" # 1080 x 1920 pls
 #  link: "/"
 #  linkText:
-crumbl:
-  title: "Crumbl Cookie Sale"
-  #startDate: 09/27
-  caption: "September 27th"
-  location: "Quad @ Lunch"
-  logo: "/images/events/crumbl/logo.png"
-  bg: "/images/events/crumbl/bg.png" # 1080 x 1920 pls
-  link: "https://instagram.com/csarts26"
-  linkText: "Get Updates"
-boba:
-  title: "Boba Sale"
-  #startDate: 10/11
-  caption: "October 11th"
-  location: "Quad @ Lunch"
-  logo: "/images/events/boba/logo.png"
-  bg: "/images/events/boba/bg.png" # 1080 x 1920 pls
+#crumbl:
+#  title: "Crumbl Cookie Sale"
+#  #startDate: 09/27
+#  caption: "September 27th"
+#  location: "Quad @ Lunch"
+#  logo: "/images/events/crumbl/logo.png"
+#  bg: "/images/events/crumbl/bg.png" # 1080 x 1920 pls
+#  link: "https://instagram.com/csarts26"
+#  linkText: "Get Updates"
+cnc25:
+  title: "Cocoa & Cram"
+  startDate: 12/16
+  endDate: 12/18
+  location: Rooms 203, 205, & 208
+  logo: "/images/events/cnc25/logo.png"
+  bg: "/images/events/cnc25/bg.png"
   link: "https://instagram.com/csarts26"
   linkText: "Get Updates"
 #mc:

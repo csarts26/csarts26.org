@@ -66,10 +66,10 @@ export default function EventsPage() {
 					{events.map((event, index) => (
 						<CarouselItem key={index} className="relative w-full h-screen">
 							<Card
-								className="w-full h-full bg-center bg-black select-none"
+								className="w-full h-full bg-cover bg-black select-none"
 								style={{ backgroundImage: `url(${event.bg})` }}
 							>
-								<div className="absolute z-10 inset-0 bg-gradient-to-r from-black/50 to-transparent" />
+								<div className="absolute z-10 inset-0 bg-gradient-to-b sm:bg-gradient-to-r from-black/50 to-transparent" />
 								<CardContent className="relative z-20 flex flex-col gap-6 w-full h-full py-8 px-7 md:p-12 text-white">
 									<p>
 										<span className="opacity-70 inline">Hosted by </span>
